@@ -1,0 +1,104 @@
+/* admin.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #004d40;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #00796b;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #004d40;
+}
+
+/* Sidebar Styles */
+aside {
+    width: 200px;
+    background-color: #00796b;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding-top: 60px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar a {
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #004d40;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar a:hover {
+    background-color: #004d40;
+}
+
+/* Main Section Styles */
+main {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.admin-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.admin-section h2 {
+    font-size: 22px;
+    color: #00796b;
+    margin-bottom: 15px;
+}
+
+.product-item {
+    background-color: #e0f2f1;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #00796b;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Dashboard</title>
+    <link rel="stylesheet" href="customer.css">
+    <script src="script.js" defer></script> <!-- Include your script file -->
+</head>
+<body>
+    <header>
+        <div class="logo">Subscription Store - Customer</div>
+        <nav>
+            <span>Customer Name</span>
+            <a href="index.html" class="btn">Logout</a>
+        </nav>
+    </header>
+
+    <aside>
+        <nav class="sidebar">
+            <a href="#" onclick="showSection('browseProducts')">Browse Products</a>
+            <a href="#" onclick="showSection('mySubscriptions')">My Subscriptions</a>
+            <a href="#" onclick="showSection('orderHistory')">Order History</a>
+            <a href="#" onclick="showSection('accountSettings')">Account Settings</a>
+        </nav>
+    </aside>
+
+    <main>
+        <section id="browseProducts" class="customer-section">
+            <h2>Browse Products</h2>
+            <div id="productCatalog"></div>
+        </section>
+
+        <section id="mySubscriptions" class="customer-section" style="display:none;">
+            <h2>My Subscriptions</h2>
+            <div id="subscriptionList"></div>
+        </section>
+
+        <section id="orderHistory" class="customer-section" style="display:none;">
+            <h2>Order History</h2>
+            <div id="orderHistoryList"></div>
+        </section>
+
+        <section id="accountSettings" class="customer-section" style="display:none;">
+            <h2>Account Settings</h2>
+            <form id="settingsForm">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">New Password:</label>
+                <input type="password" id="password" name="password">
+
+                <button type="submit" class="btn">Update</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p></p>
+    </footer>
+
+</body>
+</html>
+
+

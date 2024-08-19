@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="admincustomer.css">
+    <script src="script.js" defer></script> <!-- Include your script file -->
+</head>
+<body>
+    <header>
+        <div class="logo">Subscription Store - Admin</div>
+        <nav>
+            <span>Admin Name</span>
+            <a href="index.html">Logout</a>
+        </nav>
+    </header>
+
+    <aside>
+        <nav class="sidebar">
+            <a href="#" onclick="showSection('manageProducts')">Manage Products</a>
+            <a href="#" onclick="showSection('manageSubscriptions')">Manage Subscriptions</a>
+            <a href="#" onclick="showSection('viewOrders')">View Orders</a>
+            <a href="#" onclick="showSection('viewReports')">View Reports</a>
+        </nav>
+    </aside>
+
+    <main>
+        <section id="manageProducts" class="admin-section">
+            <h2>Manage Products</h2>
+            <button onclick="addProduct()">Add Product</button>
+            <div id="productList"></div>
+        </section>
+
+        <section id="manageSubscriptions" class="admin-section" style="display:none;">
+            <h2>Manage Subscriptions</h2>
+            <div id="subscriptionList"></div>
+        </section>
+
+        <section id="viewOrders" class="admin-section" style="display:none;">
+            <h2>View Orders</h2>
+            <div id="orderList"></div>
+        </section>
+
+        <section id="viewReports" class="admin-section" style="display:none;">
+            <h2>View Reports</h2>
+            <p>Reports will be displayed here.</p>
+        </section>
+    </main>
+</body>
+</html>
+
+
+

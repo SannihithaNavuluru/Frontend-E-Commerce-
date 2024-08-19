@@ -1,0 +1,151 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #004d40;
+    color: #333;
+}
+
+header {
+    background-color: #004d40;
+    color: #fff;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    /*border-bottom: 3px solid #00796b;*/
+}
+
+header .logo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+header nav a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Section */
+main {
+    padding: 20px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #004d40;
+    color: #004d40;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.hero p {
+    font-size: 20px;
+    margin: 10px 0 30px;
+    line-height: 1.4;
+}
+
+.hero .btn {
+    display: inline-block;
+    margin: 15px;
+    padding: 12px 24px;
+    background-color: #004d40;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.hero .btn:hover {
+    background-color: #00332e;
+    transform: translateY(-2px);
+}
+
+/* Form Section */
+.form-section {
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.form-section h2 {
+    font-size: 28px;
+    color: #00796b;
+    margin-bottom: 20px;
+}
+
+.form-section label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.form-section input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.form-section button {
+    background-color: #004d40;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.form-section button:hover {
+    background-color: #004d40;
+    transform: translateY(-2px);
+}
+
+/* Footer Styles */
+footer {
+    background-color: #004d40;
+    color: #fff;
+    text-align: center;
+    padding: 15px 30px;
+    font-size: 14px;
+    border-top: 3px solid #004d40;
+}
+
+footer nav a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
+
